@@ -1,0 +1,42 @@
+{
+  "name": "folder-to-object",
+  "version": "1.0.0",
+  "description": "Convert a folder of data files into an object",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "eslint",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gakimball/folder-to-object.git"
+  },
+  "keywords": [
+    "folder",
+    "load",
+    "object",
+    "convert",
+    "data"
+  ],
+  "author": "Geoff Kimball <geoff@geoffkimball.com> (http://geoffkimball.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gakimball/folder-to-object/issues"
+  },
+  "homepage": "https://github.com/gakimball/folder-to-object#readme",
+  "devDependencies": {
+    "@gakimball/eslint-config": "^3.2.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.15.0",
+    "mocha": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "dot-prop": "^4.1.1",
+    "glob": "^7.1.1",
+    "load-whatever": "^1.0.0",
+    "pify": "^2.3.0"
+  }
+}
